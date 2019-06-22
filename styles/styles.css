@@ -1,59 +1,72 @@
 /* Main Styles */
 body {
-    background-color: #808080;
+    background-color: #261A0D;
     /* background-image: url(../images/bg.jpg);
     background-size: cover; */
 }
 
 header {
     width: 700px;
-    border: 1px black dotted;
+    border: 1px black solid;
     margin-left: auto;
     margin-right: auto;
-    background-color: darkslateblue;
+    background-color: #261A0D;
     
     font-family: 'Cochin', monospace;
-    color: black;
+    color: #F44A52;
     font-size: 20px;
+    text-align: left;
 }
 
 main {
     width: 700px;
-    border: 1px black dotted;
+    border: 1px black solid;
     margin-left: auto;
     margin-right: auto;
-    background-color: darkslateblue;
+    background-color: #402626;
 }
 
 footer {
     width: 700px;
-    border: 1px black dotted;
+    border: 1px black solid;
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto 0 auto;
-    background-color: darkslateblue;
+    background-color: #2F1D30;
     text-align: center;
 }
 
 #container {
-    background-color: darkslateblue;
-    opacity: .5;
+    background-color: #261A0D;
+    opacity: 1;
     border-radius: 10px;
 }
+#container header, main, footer {
+    box-shadow: -3px 0px 5px 3px rgba(0,0,0,0.3);
+}
+
 /* Main Styles END */
 
 /* Text Styles */
 p, li, a { 
     font-family: 'Gil Sans', sans-serif;
-    color: darkolivegreen;
-    font-size: 20px;
+    color: #D66857;
+    font-size: smaller;
+}
+nav {
+    border: solid 1px #602020;
+    background-color: #301D1D;
+}
+
+ul {
+    padding: 0;
+    margin: 10px auto 10px 0;  
 }
 
 li {
     color: aqua;
 	display: inline;
 	width: 150px;
-	border: solid red 1px;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 5px;
@@ -64,7 +77,8 @@ h1 {
     font-family: fantasy;
     font-size: 36px;
     color: darkgray;
-    text-align: center;
+    text-align: left;
+    margin: 75px 0 20px 30px;
 }
 
 a {
