@@ -24,6 +24,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     background-color: #402626;
+    /*clear: both; */
 }
 
 footer {
@@ -77,11 +78,20 @@ li {
 h1 {
     font-family: 'Papyrus', 'Helvetica', 'Fantasy', Fantasy, Monospace;
     font-size: 56px;
-    color: darkgray;
     color: #D66857;
     text-align: left;
     margin: 75px 0 5px 30px;
 }
+
+h2 {
+    font-family: 'Papyrus', 'Helvetica', 'Fantasy', Fantasy, Monospace;
+    font-size: 24px;
+    color: #F44850;
+    text-align: left;
+    margin: 30px 0 0 30px;
+    
+}
+
 
 a {
     color: pink;
@@ -91,11 +101,15 @@ a {
 #copyright { 
     color: #D66857;
     font-family: 'Papyrus', 'Helvetica', monospace;
+    margin: 10px;
 }
 
-#content {
-    margin: 30px;
+.content {
+    margin: 10px 30px 15px 30px;
 }
+
+.content #github, .content #email {margin: 10px;}
+
 /* Text Styles END */
 
 /* Image Styles */
@@ -113,8 +127,26 @@ a {
     width: 500px;
     border-radius: 50%;
     opacity: .5;
-
 }
+
+.content img {
+    float: right;
+    margin: 0 5px 0 0;
+}
+
+#sic {
+    float: right;
+    margin: 9px 70px 9px 70px;
+}
+
+.content #git, .content #gmail {
+    float: left;
+    margin: 0;
+}
+
+.content #schopenhauer, .content #deodorant {
+    float: left;
+} 
 /* Image Styles END */
 
 /* Anchor Pseudo Classes */
@@ -123,7 +155,7 @@ a:link {
 }
 
 a:visited {
-    color: fuchsia;
+    color: #F44850;
 }
 
 a:hover {
