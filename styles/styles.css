@@ -34,6 +34,7 @@ footer {
     margin: 0 auto 0 auto;
     background-color: #2F1D30;
     text-align: center;
+    color: #F47000;
 }
 
 #container {
@@ -51,7 +52,7 @@ footer {
 p, li, a { 
     font-family: 'Gil Sans', sans-serif;
     color: #D66857;
-    font-size: smaller;
+    font-size: 20px;
 }
 nav {
     border: solid 1px #602020;
@@ -74,16 +75,26 @@ li {
 
 
 h1 {
-    font-family: fantasy;
-    font-size: 36px;
+    font-family: 'Papyrus', 'Helvetica', 'Fantasy', Fantasy, Monospace;
+    font-size: 56px;
     color: darkgray;
+    color: #D66857;
     text-align: left;
-    margin: 75px 0 20px 30px;
+    margin: 75px 0 5px 30px;
 }
 
 a {
     color: pink;
     text-decoration: none;
+}
+
+#copyright { 
+    color: #D66857;
+    font-family: 'Papyrus', 'Helvetica', monospace;
+}
+
+#content {
+    margin: 30px;
 }
 /* Text Styles END */
 
