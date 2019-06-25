@@ -86,7 +86,7 @@ h1 {
 h2 {
     font-family: 'Papyrus', 'Helvetica', 'Fantasy', Fantasy, Monospace;
     font-size: 24px;
-    color: #F44850;
+    color: rgb(237, 95, 142);
     text-align: left;
     margin: 30px 0 0 30px;
     
@@ -108,7 +108,7 @@ a {
     margin: 10px 30px 15px 30px;
 }
 
-.content #github, .content #email {margin: 10px;}
+.content #github, .content #email, .content #pdflink  {margin: 10px;}
 
 /* Text Styles END */
 
@@ -139,7 +139,7 @@ a {
     margin: 9px 70px 9px 70px;
 }
 
-.content #git, .content #gmail {
+.content #git, .content #gmail, .content #pdf {
     float: left;
     margin: 0;
 }
